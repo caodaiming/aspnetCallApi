@@ -74,7 +74,7 @@ namespace UOKO.Payment.Web.TongBao.Controllers
             {
                 var apiAddress = ConfigurationManager.AppSettings["BusinessApi"].ToString();
 
-                client.BaseAddress = new Uri(apiAddress);
+                client.BaseAddress = new Uri(apiAddress);    `
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 client.DefaultRequestHeaders.UserAgent.ParseAdd(Request.UserAgent);
