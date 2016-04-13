@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<script type="text/javascript">
+
+    function TenantInfo() {
+        $.post('@Url.Action("Index","TongBao")',
+            { token: "4da9b3fe-07a7-4c0a-be2b-4911c79f878d" }, function (data) {
+                console.info(data);
+            });
+    }
+</script>
+<button onclick="javascript:TenantInfo();">OK</button>

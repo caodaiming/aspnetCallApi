@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UOKO.Payment.Web.TongBao", "UOKO.Payment.Web.TongBao\UOKO.Payment.Web.TongBao.csproj", "{90D9F9E5-383F-4C7A-9BAC-709E897B7720}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90D9F9E5-383F-4C7A-9BAC-709E897B7720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D9F9E5-383F-4C7A-9BAC-709E897B7720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D9F9E5-383F-4C7A-9BAC-709E897B7720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D9F9E5-383F-4C7A-9BAC-709E897B7720}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
